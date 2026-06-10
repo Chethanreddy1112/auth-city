@@ -6,10 +6,10 @@ router.post("/login",authController.login);
 router.post("/signup",authController.signup);
 
 router.get("/signup", (req, res) => {
-    res.send("Signup Route Working");
+    res.send("Signup Page");
 });
 
 router.get("/login", (req, res) => {
-    res.send("Login Route Working");
+    res.send("Login Page");
 });
 module.exports = router;
